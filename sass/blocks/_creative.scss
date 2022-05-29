@@ -1,0 +1,16 @@
+.creatives__list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+@media only screen and (max-width:576px) {
+    .creatives__list {
+        flex-direction: column;
+        max-width: 576px;
+        width: 100%;
+    }
+    .creatives__item {
+        display: flex;
+    }
+}
